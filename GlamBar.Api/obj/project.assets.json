@@ -107,6 +107,56 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "GlamBar.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GlamBar.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GlamBar.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlamBar.Application.dll": {}
+        }
+      },
+      "GlamBar.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GlamBar.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlamBar.Domain.dll": {}
+        }
+      },
+      "GlamBar.Infstructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GlamBar.Application": "1.0.0",
+          "GlamBar.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GlamBar.Infstructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlamBar.Infstructure.dll": {}
+        }
+      },
+      "GlamBar.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GlamBar.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GlamBar.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlamBar.Persistence.dll": {}
+        }
       }
     }
   },
@@ -473,10 +523,31 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "GlamBar.Application/1.0.0": {
+      "type": "project",
+      "path": "../GlamBar.Application/GlamBar.Application.csproj",
+      "msbuildProject": "../GlamBar.Application/GlamBar.Application.csproj"
+    },
+    "GlamBar.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GlamBar.Domain/GlamBar.Domain.csproj",
+      "msbuildProject": "../GlamBar.Domain/GlamBar.Domain.csproj"
+    },
+    "GlamBar.Infstructure/1.0.0": {
+      "type": "project",
+      "path": "../GlamBar.Infstructure/GlamBar.Infstructure.csproj",
+      "msbuildProject": "../GlamBar.Infstructure/GlamBar.Infstructure.csproj"
+    },
+    "GlamBar.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../GlamBar.Persistence/GlamBar.Persistence.csproj",
+      "msbuildProject": "../GlamBar.Persistence/GlamBar.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "GlamBar.Infstructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.13",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -513,7 +584,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Jobs\\StarUpp\\GlamBar\\src\\GlamBar.Infstructure\\GlamBar.Infstructure.csproj": {
+              "projectPath": "D:\\Jobs\\StarUpp\\GlamBar\\src\\GlamBar.Infstructure\\GlamBar.Infstructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
