@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GlamBar.Application\GlamBar.Application.csproj" />
+      <ProjectReference Include="..\GlamBar.Persistence\GlamBar.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
