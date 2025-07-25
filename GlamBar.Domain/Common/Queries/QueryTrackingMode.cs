@@ -1,4 +1,4 @@
-namespace Barber.Domain.Common.Queries;
+namespace GlamBar.Domain.Common.Queries;
 
 /// <summary>
 /// Represents different query tracking modes that can be used when querying.

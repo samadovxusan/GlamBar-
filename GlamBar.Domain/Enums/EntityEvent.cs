@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Enums;
+﻿namespace GlamBar.Domain.Enums;
 
 /// <summary>
 /// Represents different events related to entities in the application lifecycle.

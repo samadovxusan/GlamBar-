@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Enums;
+﻿namespace GlamBar.Domain.Enums;
 
 public enum BarberTime
 {

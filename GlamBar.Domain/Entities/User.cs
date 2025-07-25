@@ -1,14 +1,12 @@
-﻿using System.Text.Json.Serialization;
-using Barber.Domain.Common.Entities;
-using Barber.Domain.Enums;
+﻿using GlamBar.Domain.Common.Entities;
+using GlamBar.Domain.Enums;
 
-namespace Barber.Domain.Entities;
+namespace GlamBar.Domain.Entities;
 
 public class User : AuditableEntity
 {
-    public string FullName { get; set; } = default!;
-    public string Password { get; set; } = default!;
-    public string PhoneNumber { get; set; } = default!;
+    public string FullName { get; set; } = string.Empty;
+    public string Password { get; set; } = string.Empty;
+    public string PhoneNumber { get; set; } = string.Empty;
     public Role Roles { get; set; } = Role.Customer;
-    public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 }

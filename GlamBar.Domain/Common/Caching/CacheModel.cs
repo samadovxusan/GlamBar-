@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Common.Caching;
+﻿namespace GlamBar.Domain.Common.Caching;
 
 /// <summary>
 ///  Represents an abstract base class for cache models, providing a common interface for caching operations.

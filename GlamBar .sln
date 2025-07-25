@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamBar.Persistence", "Glam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamBar.Infstructure", "GlamBar.Infstructure\GlamBar.Infstructure.csproj", "{88F567DD-7EB1-4BE6-B830-FB3D9537104A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91802CAB-0C88-44D7-B99B-4DC38D567BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{963120B6-8A3E-4973-B408-49769E76C171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,12 @@ Global
 		{88F567DD-7EB1-4BE6-B830-FB3D9537104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F567DD-7EB1-4BE6-B830-FB3D9537104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F567DD-7EB1-4BE6-B830-FB3D9537104A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963120B6-8A3E-4973-B408-49769E76C171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963120B6-8A3E-4973-B408-49769E76C171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963120B6-8A3E-4973-B408-49769E76C171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963120B6-8A3E-4973-B408-49769E76C171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{963120B6-8A3E-4973-B408-49769E76C171} = {91802CAB-0C88-44D7-B99B-4DC38D567BA7}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Common.Queries;
+﻿namespace GlamBar.Domain.Common.Queries;
 
 /// <summary>
 /// Represents a pagination filter with page size and page token for querying a collection of items.

@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Common.Entities;
+﻿namespace GlamBar.Domain.Common.Entities;
 
 /// <summary>
 /// Represents an abstract class that serves as a base for auditable entities in the system. This class extends the Entity class and implements the IAuditableEntity interface.

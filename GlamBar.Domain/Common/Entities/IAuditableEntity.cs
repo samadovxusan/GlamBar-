@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Common.Entities;
+﻿namespace GlamBar.Domain.Common.Entities;
 
 /// <summary>
 /// Represents an interface for auditable entities, defining properties related to creation and modification timestamps.

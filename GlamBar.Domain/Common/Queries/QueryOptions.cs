@@ -1,4 +1,4 @@
-﻿namespace Barber.Domain.Common.Queries;
+﻿namespace GlamBar.Domain.Common.Queries;
 
 /// <summary>
 /// Represents a set of options to configure data querying behavior.
